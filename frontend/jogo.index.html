@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguinho do Mario</title>
+
+    <link rel="stylesheet" href="./css/jogo.css">
+    <script src="./js/jogo.js" defer></script>
+</head>
+
+<body>
+    <div class="game-board">
+        <img src="./imagens_jogo /clouds.png" alt="Nuvens" class="clouds">
+        <img src="./imagens_jogo /mario.gif" alt="Mario" class="mario">
+        <img src="./imagens_jogo /pipe.png" alt="Cano" class="pipe">
+        
+        <!-- Tela de Game Over movida para cá -->
+        <div class="Game-over">
+            <h1>Game Over</h1>
+            <button onclick="resetGame()">Reiniciar</button>
+        </div>
+    </div>
+</body>
+
+</html>
